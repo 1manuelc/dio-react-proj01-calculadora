@@ -12,7 +12,12 @@ export const Container = styled.div`
 
 export const Content = styled.div`
 	background-color: #fff;
-	width: 80%;
-	min-height: 350px;
-  border-radius: 16px;
+	width: 50%;
+	border-radius: 1.6rem 1.6rem 0 0;
+`;
+
+export const Row = styled.div`
+	display: flex;
+	flex-flow: row;
+	align-items: center;
 `;
